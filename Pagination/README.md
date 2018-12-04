@@ -54,4 +54,4 @@
 | background | 是否为分页按钮添加背景色 | Boolean | true | 否 |
 
 # 效果图
-
+![](https://raw.githubusercontent.com/wangjiachen199366/Vue-Components-Library/master/Pagination/%E6%95%88%E6%9E%9C%E5%9B%BE.gif)
