@@ -48,7 +48,9 @@ export default {
 
 # 效果图
 
+![](https://raw.githubusercontent.com/wangjiachen199366/Vue-Components-Library/master/SideBar/%E6%95%88%E6%9E%9C%E5%9B%BE.gif)
+
 # 源代码
 
-完整代码请戳☞[]()
+完整代码请戳☞[Vue-Components-Library/SideBar](https://github.com/wangjiachen199366/Vue-Components-Library/tree/master/SideBar)
 
