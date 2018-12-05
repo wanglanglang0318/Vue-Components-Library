@@ -46,6 +46,48 @@ export default {
 | :------: | :------------------: | :---: | :------: |
 | menuList | 由后端返回的菜单数据 | Array |    是    |
 
+# 菜单数据格式示例
+
+```json
+{
+    menus : [
+          {
+            path: '/func1',     //菜单项所对应的路由路径
+            title: '功能1',     //菜单项名称
+            children:[]        //是否有子菜单，若没有，则为[]
+          },
+          {
+            path: '/func2',
+            title: '功能2',
+            children:[]
+          },
+          {
+            path: '/func3',
+            title: '功能3',
+            children: [
+              {
+                path: '/func31',
+                title: '功能3-1',
+                children:[]
+              },
+              {
+                path: '/func32',
+                title: '功能3-2',
+                children:[]
+              },
+              {
+                path: '/func33',
+                title: '功能3-3',
+                children:[]
+              },
+            ]
+          }
+    ]
+}
+```
+
+
+
 # 效果图
 
 ![](https://raw.githubusercontent.com/wangjiachen199366/Vue-Components-Library/master/SideBar/%E6%95%88%E6%9E%9C%E5%9B%BE.gif)
