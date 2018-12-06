@@ -36,4 +36,4 @@ export default {
 | url | 件上传到的目的url | String | 是 |
 
 # 效果图
-![]()
+![](https://raw.githubusercontent.com/wangjiachen199366/Vue-Components-Library/master/UploadFile/%E6%95%88%E6%9E%9C%E5%9B%BE.gif)
