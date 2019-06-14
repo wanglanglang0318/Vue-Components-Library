@@ -22,7 +22,7 @@ export default {
       let scene = new JTopo.Scene(stage);
       scene.background = '/static/bg.jpg';
 
-      var node = new JTopo.Node("Hello");                            
+      var node = new JTopo.Node("难凉热血");                            
       node.setLocation(409, 269);
       scene.add(node);
      
